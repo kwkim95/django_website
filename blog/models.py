@@ -18,7 +18,7 @@ class Post(models.Model):
         return '[{0}] {1}'.format(self.pk, self.title)
 
     def get_absolute_url(self):
-        return '/blog/{0}'.format(self.pk)
+        return '/blog/{0}/'.format(self.pk)
 
     def get_file_name(self):
         return os.path.basename(self.file_upload.name)
