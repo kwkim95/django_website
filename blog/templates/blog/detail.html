@@ -12,6 +12,10 @@
         {% if post.hook_text %}
         <h5 class="text-muted">{{ post.hook_text }}</h5>
         {% endif %}
+        <p class="lead">
+            by
+            <a href="#">{{ post.author | upper }}</a>
+        </p>
         <!-- Post meta content-->
         <div class="text-muted fst-italic mb-2">Posted on January 1, 2021 by Start Bootstrap</div>
         <!-- Post categories-->
