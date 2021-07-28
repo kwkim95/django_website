@@ -1,6 +1,9 @@
 {% extends 'blog/base.html' %}
 {% block main_area %}
-<h1>Blog</h1>
+
+{% if category %}
+<h1>Blog <span class="badge rounded-pill bg-light text-dark">{{ category }}</span></h1>
+{% endif %}
 {% if post_list.exists %}
 {% for p in post_list %}
 <!-- Blog post-->
