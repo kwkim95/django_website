@@ -38,7 +38,7 @@
     <figure class="mb-4"><img class="img-fluid rounded" src="https://picsum.photos/seed/{{ post.id }}/200/300.jpg" alt="{{ post }} random_image" /></figure>
     {% endif %}
     <!-- Post content-->
-    <p>{{ post.content }}</p>
+    <p>{{ post.get_content_markdown | safe }}</p>
     {% if post.file_upload %}
     <a href="{{ post.file_upload.url }}" class="btn btn-outline-secondary" role="button" Download>
         Download:
