@@ -1,0 +1,16 @@
+body{
+    background: url('/static/single_pages/images/20181104015755_IMG_4078.JPG') no-repeat
+center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-sie: cover;
+    background-color: cover;
+    -o-background-color: cover;
+}
+
+section{
+    margin-bottom: 150px;
+}
+
+.card{
+    background-color: rgba(255,255,255,0.4);
+}
