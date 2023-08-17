@@ -1,7 +1,7 @@
 asgiref==3.4.1
 backcall==0.2.0
 beautifulsoup4==4.9.3
-certifi==2021.5.30
+certifi==2023.7.22
 cffi==1.14.6
 charset-normalizer==2.0.4
 colorama==0.4.4
